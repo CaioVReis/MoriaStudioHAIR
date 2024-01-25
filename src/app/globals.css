@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.colorbase {
+  background-image: linear-gradient(to right, #424242, #424242, #424242, #424242, #424242, #505050, #5e5e5e, #6d6d6d, #8f8f8f, #b3b3b3, #d8d8d8, #ffffff);
+}
+
+.textcolorD {
+  color: #FFD700;
+}
+
+
+
+
