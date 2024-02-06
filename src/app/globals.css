@@ -73,7 +73,7 @@ ul {
 
 
 .backcolor {
-  background-color: #B2B1B4;
+  background-color: #E5E5E4;
 }
 
 .ContainerPrimary {
@@ -86,7 +86,7 @@ ul {
 }
 
 .textcolorD {
-  color: #FFD700;
+  color: #D7A339;
 }
 
 .NavBarColor1 {
@@ -190,7 +190,7 @@ path.two {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #FFF;
+  background: #E5E5E4;
 
 
   display: flex;
