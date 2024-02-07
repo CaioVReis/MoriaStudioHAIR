@@ -13,6 +13,7 @@ import { Parallax, Pagination, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper/modules';
 import { MenuBar } from "@/components/menu";
+import NavBar from "@/components/navbar";
 
 
 
@@ -57,7 +58,10 @@ export default function Home() {
     <div className="backcolor">
 
       <div className="ContainerPrimary ">
-        <div className="ContainerPrimary md:hidden h-[64px] w-[100%] ">
+        <div className="hidden md:block">
+          <NavBar/>
+        </div>
+        <div className="ContainerPrimary md:hidden block h-[64px] w-[100%] ">
           <div className="border border-black w-[50px] bg-[#363636] rounded-e-full h-[64px]">
             <div className="mt-[10px]"><MenuBar /></div>
 
