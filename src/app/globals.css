@@ -253,3 +253,24 @@ path.two {
   outline-offset: 15px;
   text-shadow: 1px 1px 2px #FBC638; 
 }
+
+.Icon{
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  font-size: 30px;
+  background-color: #01e675;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 4px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 100;
+  box-shadow: 2px 2px 2px #c0bdbd;
+
+}
+
+
+

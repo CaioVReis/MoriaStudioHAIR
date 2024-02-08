@@ -1,7 +1,7 @@
 "use client";
 import Banner from "@/components/banner"
 import Cards from "@/components/cards";
-
+import ButtonWhats from "@/components/buttonZap"
 import { register } from 'swiper/element-bundle'
 register()
 import 'swiper/css';
@@ -14,6 +14,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper/modules';
 import { MenuBar } from "@/components/menu";
 import NavBar from "@/components/navbar";
+
 
 
 
@@ -59,7 +60,7 @@ export default function Home() {
 
       <div className="ContainerPrimary ">
         <div className="hidden md:block">
-          <NavBar/>
+          <NavBar />
         </div>
         <div className="ContainerPrimary md:hidden block h-[64px] w-[100%] ">
           <div className="border border-black w-[50px] bg-[#363636] rounded-e-full h-[64px]">
@@ -161,7 +162,7 @@ export default function Home() {
           </div>
         </div>
         <div className="md:mt-0 mt-10">
-        <Banner Link="https://mlabs-wordpress-site.s3.amazonaws.com/wp-content/uploads/2020/06/marketing-digital-para-salao-de-beleza-header.jpg" />
+          <Banner Link="https://mlabs-wordpress-site.s3.amazonaws.com/wp-content/uploads/2020/06/marketing-digital-para-salao-de-beleza-header.jpg" />
         </div>
         <div>
           <h5 className="font-bold text-center text-2xl italic md:mt-[68px] mt-10 underline">Nossos Serviços</h5>
@@ -252,6 +253,9 @@ export default function Home() {
 
           </div>
 
+        </div>
+        <div className="h-10">
+          <ButtonWhats/>
         </div>
       </div>
     </div>
